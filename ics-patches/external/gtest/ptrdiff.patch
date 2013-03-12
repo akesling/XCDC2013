@@ -1,0 +1,12 @@
+diff --git a/include/gtest/internal/gtest-param-util.h b/include/gtest/internal/gtest-param-util.h
+index 5559ab4..405dc4d 100644
+--- a/include/gtest/internal/gtest-param-util.h
++++ b/include/gtest/internal/gtest-param-util.h
+@@ -37,6 +37,7 @@
+ #include <iterator>
+ #include <utility>
+ #include <vector>
++#include <cstddef>
+ 
+ #include <gtest/internal/gtest-port.h>
+ 
