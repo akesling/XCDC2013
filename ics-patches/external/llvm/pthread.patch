@@ -1,0 +1,13 @@
+diff --git a/llvm-host-build.mk b/llvm-host-build.mk
+index 5219efd..53a6229 100644
+--- a/llvm-host-build.mk
++++ b/llvm-host-build.mk
+@@ -10,6 +10,8 @@ LOCAL_CFLAGS :=	\
+ 	-Wwrite-strings	\
+ 	$(LOCAL_CFLAGS)
+ 
++LOCAL_LDLIBS := -lpthread -ldl
++
+ ifeq ($(LLVM_ENABLE_ASSERTION),true)
+ LOCAL_CFLAGS :=	\
+ 	-D_DEBUG	\
