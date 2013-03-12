@@ -1,0 +1,19 @@
+diff --git a/src/glsl/linker.cpp b/src/glsl/linker.cpp
+index f8b6962..4354cbf 100644
+--- a/src/glsl/linker.cpp
++++ b/src/glsl/linker.cpp
+@@ -67,6 +67,7 @@
+ #include <cstdio>
+ #include <cstdarg>
+ #include <climits>
++#include <cstddef>
+ 
+ #include <pixelflinger2/pixelflinger2_interface.h>
+ 
+@@ -1762,4 +1763,4 @@ done:
+    }
+ 
+    //hieralloc_free(mem_ctx);
+-}
+\ No newline at end of file
++}
